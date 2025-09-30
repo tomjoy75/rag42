@@ -1,0 +1,16 @@
+[project]
+name = "rag42"
+version = "0.1.0"
+description = "RAG Against the Machine - 42 project"
+authors = [{ name = "Thomas Joyeux" }]
+requires-python = ">=3.10"
+dependencies = [
+    "fire>=0.7.1",
+    "pydantic==2.*",
+    "scikit-learn>=1.7.2",
+    "tqdm>=4.67.1",
+]
+
+[tool.uv]
+# uv-specific settings (peuvent rester vides pour l'instant)
+
